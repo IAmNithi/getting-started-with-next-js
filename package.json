@@ -1,0 +1,27 @@
+{
+  "name": "getting-started-with-next-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IAmNithi/getting-started-with-next-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IAmNithi/getting-started-with-next-js/issues"
+  },
+  "homepage": "https://github.com/IAmNithi/getting-started-with-next-js#readme",
+  "dependencies": {
+    "next": "^9.4.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
