@@ -1,5 +1,11 @@
-function HomePage() {
-    return <div>Welcome to Next.js!</div>
-  }
-  
-  export default HomePage
+import Layout from "../component/Layout";
+
+const Index = (props) => (
+  <Layout>
+    <div>
+      <h1>Welcome to StarWars</h1>
+    </div>
+  </Layout>
+);
+
+export default Index;
