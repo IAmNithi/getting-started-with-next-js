@@ -1,11 +1,14 @@
 import Link from 'next/link';
 
 const Navbar = () => (
-  <nav className="navbar navbar-expand navbar-dark bg-dark mb-4">
-    <div className="container text-center">
-      <a className="navbar-brand" href="#">StarWars</a>
+    <div className="container mb-4 text-center">
+    <Link href="/"><a className="nav-link"><img src="/images/sw_logo.png" className="logo"/></a></Link>
+    <style jsx>{`
+        .logo{
+            height: 75px;
+        }
+      `}</style>
     </div>
-  </nav>
 );
 
 export default Navbar;
