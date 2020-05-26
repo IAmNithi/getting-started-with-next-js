@@ -1,5 +1,6 @@
 import Layout from "../component/Layout";
-import Card from '../component/Card';
+import Card from "../component/Card";
+import Slider from "../component/Slider";
 import movieList from '../public/JSON/movies.json';
 
 function Blog() {
@@ -17,7 +18,7 @@ function Blog() {
 const Index = (props) => (
   <Layout>
     <div>
-    <img src="./images/death_star_image.jpg" className="img-fluid mb-4" alt="Responsive image" />
+    <Slider />
       {Blog()}
     </div>
   </Layout>
