@@ -4,20 +4,20 @@ import movieList from '../public/JSON/movies.json';
 
 function Blog() {
   return (
-    <>
-      {movieList.movies.map(post => (
-        <div className="col-md-4 col-sm-12">
-        <Card />
+    <div className="row">
+      {movieList.movies.map((post,index) => (
+        <div className="col-md-4 col-sm-12" key={index}>
+        <Card data={post}/>
         </div>
       ))}
-      </>
+      </div>
   )
 }
 
 const Index = (props) => (
   <Layout>
     <div>
-      <h1>Welcome to StarWars</h1>
+    <img src="./images/death_star_image.jpg" className="img-fluid mb-4" alt="Responsive image" />
       {Blog()}
     </div>
   </Layout>
